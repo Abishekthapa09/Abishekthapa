@@ -21,14 +21,30 @@
 </head>
 
 <body>
-  <body>
+  <style>
+    .glow {
+      font-size: 70px;
+      color: #ffffff;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 1px 1px 5px #0e0332,-1px -1px 5px #0e0332,-2.5px -2.5px 10px #0e0332,-2.5px -2.5px 10px #0e0332;
+      }
+      to {
+           text-shadow: 1px 1px 5px #66e5e3,-1px -1px 5px #66e5e3, 1.5px 1.5px 10px #66e5e3,-1.5px -1.5px 10px #66e5e3;
+      }
+    }
+  </style>
      <canvas></canvas>
       <script  src="JS/script.js"></script>
     
-    </body>
   <div id="particles">
     <div id="intro">
-      <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 100;">Abishek Thapa</h2>
+      <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 100;"><h2 class="glow">Abishek Thapa</h2></h2>
       <h3 style="margin: 10px; font-weight:500">Visit Again After:-</h3>
       <div id="countdown">
         <div id='tiles'></div>

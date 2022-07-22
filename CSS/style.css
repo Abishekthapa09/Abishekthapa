@@ -91,7 +91,7 @@ h2 {
   font-size: 50px;
   font-weight: 120;
   color: #ffffff;
-  text-shadow: 1px 1px 5px #66e5e3,-1px -1px 5px #66e5e3,2.5px 2.5px 25px #66e5e3,-2.5px -2.5px 25px #66e5e3;
+  /* text-shadow: 1px 1px 5px #66e5e3,-1px -1px 5px #66e5e3,2.5px 2.5px 25px #66e5e3,-2.5px -2.5px 25px #66e5e3; */
   letter-spacing: 0.05em;
 }
 
