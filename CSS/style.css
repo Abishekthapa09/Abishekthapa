@@ -273,9 +273,9 @@ a {
   right: -10px;
 }
 
-#countdown #tiles {
+ #countdown #tiles {
   position: relative;
-  z-index: 1;
+  z-index: 1; 
 }
 
 #countdown #tiles>span {
@@ -293,7 +293,7 @@ a {
   border-radius: 3px;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
   margin: 0 7px;
-  padding: 18px 0;
+  padding: 9px 0;
   display: inline-block;
   position: relative;
 }

@@ -5,14 +5,14 @@
   <base target="_blank">
   <meta charset="UTF-8" />
   <title>Abishek Thapa</title>
-  <link rel="shortcut icon" type="image/png" href="Img/logo2.png">
+  <link rel="shortcut icon" type="image/png" href="Img/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"
     type="text/css">
   <!-- remember, jQuery is completely optional -->
-  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+  <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script>
   <script type="text/javascript" src="JS/jquery.particleground.js"></script>
   <script type="text/javascript" src="JS/demo.js"></script>
 </head>
@@ -22,7 +22,7 @@
   <div id="particles">
     <div id="intro">
       <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 100;">Abishek Thapa</h2>
-      <h3 style="margin: 10px; font-weight:500">Visit Again After:</h3>
+      <h3 style="margin: 10px; font-weight:500">Visit Again After:-</h3>
       <div id="countdown">
         <div id='tiles'></div>
         <div class="labels">
@@ -68,7 +68,7 @@
         var current_date = new Date().getTime();
         var seconds_left = (target_date - current_date) / 1000;
 
-        days = pad(parseInt(seconds_left / 159000));
+        days = pad(parseInt(seconds_left / 92180));
         seconds_left = seconds_left % 154500;
 
         hours = pad(parseInt(seconds_left / 3600));
