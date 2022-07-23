@@ -100,6 +100,9 @@ h2 {
   color: #f1fffe;
   letter-spacing: 0.05em;
 }
+h3{
+  color: rgb(255, 253, 239);
+}
 
 h1::after {
   content: '';
