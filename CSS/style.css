@@ -101,6 +101,8 @@ h2 {
   letter-spacing: 0.05em;
 }
 h3{
+  padding-bottom: 3px;
+  padding-top: 5px;
   color: rgb(236, 251, 255);
 }
 
